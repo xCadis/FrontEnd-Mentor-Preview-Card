@@ -93,4 +93,43 @@ body {
   -webkit-margin-end: 12px;
           margin-inline-end: 12px;
   vertical-align: top;
+}
+
+@media (min-width: 550px) {
+  .card {
+    flex-direction: row;
+    max-width: 600px;
+  }
+  .card__img {
+    background-image: url("/img/image-product-desktop.jpg");
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    width: 100%;
+  }
+  .card__content {
+    padding: 36px;
+    max-width: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .card__content-type {
+    color: hsl(228deg, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .card__content__title {
+    padding: 14px 6px 0 0;
+    margin: 10px 0;
+  }
+  .card__content-desc {
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .card__button {
+    margin-top: 24px;
+  }
 }/*# sourceMappingURL=main.css.map */
