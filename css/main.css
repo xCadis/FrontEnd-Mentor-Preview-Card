@@ -20,7 +20,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .card__img {
-  background-image: url("/img/image-product-mobile.jpg");
+  background-image: url("../img/image-product-mobile.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -101,7 +101,7 @@ body {
     max-width: 600px;
   }
   .card__img {
-    background-image: url("/img/image-product-desktop.jpg");
+    background-image: url("../img/image-product-desktop.jpg");
     background-size: cover;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
