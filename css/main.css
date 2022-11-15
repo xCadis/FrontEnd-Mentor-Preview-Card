@@ -17,7 +17,6 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  width: 100%;
   font-family: "Montserrat", sans-serif;
 }
 .card__img {
@@ -25,14 +24,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   min-height: 241px;
 }
 .card__content {
   background-color: hsl(0deg, 0%, 100%);
-  padding: 25px 25px;
+  padding: 20px 20px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   margin: 0 auto;
@@ -52,18 +50,19 @@ body {
   font-family: "Fraunces", serif;
   font-weight: bold;
   line-height: 32px;
+  margin: 10px 0;
 }
 .card__content-desc {
   color: hsl(228deg, 12%, 48%);
   padding: 10px 0;
-  font-size: 15px;
-  letter-spacing: 0.6px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
   line-height: 24px;
 }
 .card__price {
   display: flex;
   align-items: center;
-  padding: 8px 0;
+  padding: 8px 0 0 0;
 }
 .card__price-main {
   color: hsl(158deg, 36%, 37%);
@@ -74,18 +73,16 @@ body {
 .card__price-old {
   color: hsl(228deg, 12%, 48%);
   margin-left: 20px;
-  text-decoration: line-through;
   font-size: 14px;
   font-weight: lighter;
 }
 .card__button {
   width: 100%;
-  height: 50px;
+  height: 48px;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(158deg, 36%, 37%);
-  font-size: 16px;
-  margin-top: 8px;
   font-size: 14px;
+  margin-top: 16px;
   font-weight: bold;
   border: none;
   border-radius: 8px;
@@ -96,25 +93,4 @@ body {
   -webkit-margin-end: 12px;
           margin-inline-end: 12px;
   vertical-align: top;
-}
-
-@media (min-width: 425px) {
-  .card {
-    flex-direction: row;
-    max-width: 620px;
-  }
-  .card__img {
-    background-image: url("/img/image-product-desktop.jpg");
-    background-size: cover;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border-top-right-radius: 0;
-    width: 100%;
-  }
-  .card__content {
-    padding: 40px;
-    max-width: none;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
 }/*# sourceMappingURL=main.css.map */
